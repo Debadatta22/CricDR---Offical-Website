@@ -81,11 +81,8 @@ Let me walk you through my cricket-focused web application, CricDR, which I've d
 <div align="center">
   <img src="./assets/images/india-champions-trophy-2025-win-1741546873.jpg" alt="CricDR Banner" width="100%" height="300" style="object-fit: cover; border-radius: 10px;">
   
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://gleeful-cucurucho-a61064.netlify.app/)
-  [![React Native](https://img.shields.io/badge/React%20Native-0.79.1-blue?style=for-the-badge&logo=react)](https://reactnative.dev/)
-  [![Expo](https://img.shields.io/badge/Expo-53.0.0-black?style=for-the-badge&logo=expo)](https://expo.dev/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://lambent-fox-9d6931.netlify.app/)
+
 </div>
 
 
