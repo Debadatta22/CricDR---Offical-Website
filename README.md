@@ -1,6 +1,18 @@
 # CricDR---Offical-Website
 CricDR  is an all-in-one cricket companion app designed for enthusiasts of all skill levels. It's a React Native/Expo application that serves as your personal cricket learning hub.
 
+![image](https://github.com/user-attachments/assets/a7199338-03e9-418e-8ffe-80dd31b0f168)
+![image](https://github.com/user-attachments/assets/355fe5b9-c2d9-4d05-af05-64388a725606)
+![image](https://github.com/user-attachments/assets/ed8da683-2be5-4413-a48b-1df2add3bd03)
+![image](https://github.com/user-attachments/assets/2e8b3580-99b7-4ef4-a7a7-fd5a7e987a33)
+![image](https://github.com/user-attachments/assets/8fd1c64b-334b-488f-8323-3d9caddb9ff8)
+![image](https://github.com/user-attachments/assets/6a9c4c90-99ab-4baf-bdf1-d09ff175ec1f)
+![image](https://github.com/user-attachments/assets/a4805c08-c0e8-43af-a83c-a4bd99d6b106)
+![image](https://github.com/user-attachments/assets/53b9d167-f70d-497c-b6c2-0ee333d7a8b0)
+
+
+
+
 ## 🔖 Table of Contents
 
 - [CricDR: A Comprehensive Cricket Learning Platform](#cricdr-a-comprehensive-cricket-learning-platform)
