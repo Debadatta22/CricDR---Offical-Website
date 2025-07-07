@@ -79,9 +79,11 @@ Your Ultimate Cricket Learning Companion 🏏
 Let me walk you through my cricket-focused web application, CricDR, which I've designed and developed as a comprehensive platform for cricket enthusiasts of all levels.
 
 <div align="center">
-  ![WhatsApp Image 2025-07-07 at 19 27 54_6687902e](https://github.com/user-attachments/assets/7c728cb3-c931-411a-a891-d25e9d17e0f7)
-  
+
+    
   [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://lambent-fox-9d6931.netlify.app/)
+)
+  
 
 </div>
 
