@@ -6,8 +6,9 @@ CricDR  is an all-in-one cricket companion app designed for enthusiasts of all s
 
 - [CricDR: A Comprehensive Cricket Learning Platform](#cricdr-a-comprehensive-cricket-learning-platform)
 - [Project Overview and Vision](#project-overview-and-vision)
-- [Technical Architecture and Implementation](#technical-architecture-and-implementation)
-- [Design Philosophy and UIUX](#design-philosophy-and-uiux)
+- [Key Features](#-key-features)
+- [Technical Architecture](#-technical-architecture)
+- [Design Philosophy](#-design-philosophy)
 - [Feature Breakdown](#feature-breakdown)
 - [Technical Implementation Details](#technical-implementation-details)
 - [External Integrations](#external-integrations)
@@ -17,30 +18,22 @@ CricDR  is an all-in-one cricket companion app designed for enthusiasts of all s
 - [Data Sources and APIs](#data-sources-and-apis)
 - [Security and Best Practices](#security-and-best-practices)
 - [Unique Features and Innovations](#unique-features-and-innovations)
-- [Smart Search System](#smart-search-system)
-- [Interactive Modals and Animations](#interactive-modals-and-animations)
-- [Personal Touch and Branding](#personal-touch-and-branding)
+  - [Custom AI Agents](#custom-ai-agents)
+  - [Smart Search System](#smart-search-system)
+  - [Interactive Modals and Animations](#interactive-modals-and-animations)
+  - [Personal Touch and Branding](#personal-touch-and-branding)
 - [Future Enhancements and Scalability](#future-enhancements-and-scalability)
-- [Development Workflow and Tools](#development-workflow-and-tools)
-- [CricDR - Your Ultimate Cricket Learning Companion 🏏](#cricdr---your-ultimate-cricket-learning-companion-)
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Technical Architecture](#-technical-architecture)
-- [Design Philosophy](#-design-philosophy)
+- [Development Workflow and Tools](#-development-workflow)
+- [Visual Design](#visual-design)
 - [Getting Started](#-getting-started)
 - [Platform Support](#-platform-support)
-- [External Integrations](#-external-integrations)
 - [Core Features Deep Dive](#-core-features-deep-dive)
-- [Development Workflow](#-development-workflow)
-- [Deployment & Hosting](#-deployment--hosting)
-- [Analytics & Monitoring](#-analytics--monitoring)
-- [Security & Privacy](#-security--privacy)
-- [Future Enhancements](#-future-enhancements)
 - [About the Creator](#-about-the-creator)
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 - [Support](#-support)
+
 
 ----
 
@@ -740,9 +733,3 @@ If you have any questions, suggestions, or issues, please feel free to:
 - Connect with me on LinkedIn
 
 ---
-
-
-
-
-
-
