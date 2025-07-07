@@ -748,9 +748,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions, suggestions, or issues, please feel free to:
-- Open an issue on GitHub
-- Contact me via email: routdebadatta22@gmail.com
-- Connect with me on LinkedIn
+If you have any questions, suggestions, or issues, feel free to reach out:
+
+- 📂 [Open an Issue on GitHub](https://github.com/Debadatta22)
+- 📧 [Email Me](mailto:routdebadatta22@gmail.com)
+- 💼 [Connect on LinkedIn](http://www.linkedin.com/in/debadatta-rout-454935341)
+- 📸 [Follow on Instagram](https://www.instagram.com/debadatta22rout?igsh=azJyb3N1b3k5Y2Qw)
+
 
 ---
