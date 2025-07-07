@@ -53,7 +53,8 @@ Let me walk you through my cricket-focused web application, CricDR, which I've d
   [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 </div>
 
-##🌟Project  Overview and Vision
+
+## 🌟Project  Overview and Vision
 
 I created CricDR as my passion project, combining my technical expertise in frontend development with my love for cricket. The name "CricDR" represents "Cricket learning platform Designed by Debadatta ROut" - a platform that diagnoses and treats all cricket-related learning needs. My vision was to build a one-stop solution that makes cricket knowledge accessible to everyone, from complete beginners to seasoned players looking to refine their skills.
 
