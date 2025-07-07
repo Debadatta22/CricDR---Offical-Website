@@ -20,6 +20,7 @@ OR Scan and use:
 - [Project Overview and Vision](#project-overview-and-vision)
 - [Mission](#-mission)
 - [Key Features](#-key-features)
+- [CricDR Application Workflow & Architecture](#cricdr-application-workflow--architecture)
 
 - [Technical Architecture](#technical-architecture)
   - [Core Technology Stack](#core-technology-stack)
@@ -135,6 +136,462 @@ To bridge the gap between technology and sports education by providing an intuit
 - **Contextual Suggestions**: Real-time suggestions based on user input
 - **Direct Navigation**: Quick access to relevant sections
 - **Multi-category Search**: Search across AI assistants, learning content, scores, and shopping
+
+## CricDR Application Workflow & Architecture
+
+Let me explain the complete workflow and architecture of your CricDR application in detail:
+
+### 📱 Application Flow Diagram
+
+<details>
+<summary>🔽 <strong>Click to expand the full application workflow</strong></summary>
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                       CricDR Application                           │
+│                   (React Native + Expo)                            │
+└────────────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌────────────────────────────────────────────────────────────────────┐
+│                        App Entry Point                             │
+│                       app/_layout.tsx                              │
+│                                                                    │
+│  • useFrameworkReady() hook initialization                         │
+│  • Stack Navigator setup                                           │
+│  • Points to (tabs) route                                          │
+│  • StatusBar configuration                                         │
+└────────────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌────────────────────────────────────────────────────────────────────┐
+│                   Tab Navigation Layout                            │
+│                   app/(tabs)/_layout.tsx                           │
+│                                                                    │
+│  • 6 Main Tabs Configuration:                                      │
+│    - Home (index)                                                  │
+│    - AI Assistant                                                  │
+│    - Cricket Boards                                                │
+│    - Scores                                                        │
+│    - Learning                                                      │
+│    - Shopping                                                      │
+│  • Tab bar styling and icons                                       │
+└────────────────────────────────────────────────────────────────────┘
+                                │
+                ┌───────────────┼───────────────┐
+                ▼               ▼               ▼
+        ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
+        │     HOME       │ │  AI ASSISTANT  │ │    BOARDS      │
+        │    SCREEN      │ │    SCREEN      │ │    SCREEN      │
+        └────────────────┘ └────────────────┘ └────────────────┘
+                ▼               ▼               ▼
+        ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
+        │    SCORES      │ │   LEARNING     │ │   SHOPPING     │
+        │    SCREEN      │ │    SCREEN      │ │    SCREEN      │
+        └────────────────┘ └────────────────┘ └────────────────┘
+```
+
+</details>
+
+### 🏠 Home Screen Workflow (index.tsx)
+
+<details>
+<summary>🔽 <strong>Click to expand the Home Screen Interaction Flow</strong></summary>
+
+```
+User Opens App
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│           Home Screen Loads             │
+│                                         │
+│  1. Hero Image Display                  │
+│  2. Welcome Header with Gradients       │
+│  3. Smart Search Bar                    │
+│  4. 6 Quick Action Cards                │
+│  5. Features Showcase                   │
+│  6. Statistics Display                  │
+│  7. Designer Information                │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         User Interactions               │
+│                                         │
+│  • Search Input → Filter Actions        │
+│  • Tap Action Card → Navigate/External  │
+│  • Tap Profile → Open About Modal       │
+│  • Tap Social Links → External URLs     │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Navigation Logic                │
+│                                         │
+│  Internal Routes:                       │
+│  • /ai-assistant                        │
+│  • /cricket-boards                      │
+│  • /scores                              │
+│  • /learning                            │
+│  • /shopping                            │
+│                                         │
+│  External Links:                        │
+│  • CricDR Coach (Netlify)               │
+│  • Portfolio Website                    │
+│  • Social Media Profiles                │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+### 🤖 AI Assistant Workflow (ai-assistant.tsx)
+
+<details>
+<summary>🔽 <strong>Click to expand the AI Assistant Hub Workflow</strong></summary>
+
+```
+User Navigates to AI Assistant
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│           AI Assistant Hub              │
+│                                         │
+│  1. Header with Gradient                │
+│  2. My Designed AI Agents Section       │
+│     • Standalone Agent                  │
+│     • Chatbot Agent                     │
+│     • Voice Agent                       │
+│     • Agent App                         │
+│  3. Existing AI Assistants Section      │
+│     • Google Gemini                     │
+│     • Fulltrack AI                      │
+│     • Cricket AI                        │
+│     • Vision AI                         │
+│     • GameFace AI                       │
+│     • AI CricketCoach                   │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│             Agent Selection             │
+│                                         │
+│  User Taps Agent Card                   │
+│       │                                 │
+│       ▼                                 │
+│  External Link Opening:                 │
+│  • JotForm Agent URLs                   │
+│  • Third-party AI Platforms             │
+│  • WebView Integration (if internal)    │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+### 🏆 Scores & News Workflow (scores.tsx)
+
+<details>
+<summary>🔽 <strong>Click to expand the Live Scores and Cricket News Workflow</strong></summary>
+
+```
+User Navigates to Scores
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Cricket Hub Screen              │
+│                                         │
+│  1. Header with Gradient                │
+│  2. Quick Access Links                  │
+│     • ESPNCricinfo Live                 │
+│     • Cricbuzz Schedule                 │
+│     • Cricbuzz News                     │
+│  3. Tab Navigation                      │
+│     • Live Scores                       │
+│     • Cricket News                      │
+│     • Upcoming Matches                  │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Tab Content Display             │
+│                                         │
+│  Live Scores Tab:                       │
+│  • Match cards with live status         │
+│  • Team scores and overs                │
+│  • Venue and format information         │
+│                                         │
+│  News Tab:                              │
+│  • News articles with categories        │
+│  • Timestamps and sources               │
+│  • External links to full articles      │
+│                                         │
+│  Upcoming Tab:                          │
+│  • Future match schedules               │
+│  • Date, time, and venue details        │
+│  • Series information                   │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         External Integration            │
+│                                         │
+│  • ESPNCricinfo for live scores         │
+│  • Cricbuzz for news and schedules      │
+│  • Direct links to source platforms     │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+### 🌍 Cricket Boards Workflow (cricket-boards.tsx)
+
+<details>
+<summary>🔽 <strong>Click to expand the Cricket Boards Directory Workflow</strong></summary>
+
+```
+User Navigates to Cricket Boards
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│       Cricket Boards Directory          │
+│                                         │
+│  1. Header with Statistics              │
+│     • 12 Cricket Boards                 │
+│     • 100+ Countries                    │
+│     • 1B+ Cricket Fans                  │
+│  2. Official Cricket Boards Grid        │
+│     • ICC, BCCI, ECB, CA, PCB, etc.     │
+│  3. Broadcasting Channels               │
+│  4. Popular Cricket Resources           │
+│  5. Leagues Modal Trigger               │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Board Card Interactions         │
+│                                         │
+│  Each Board Card Contains:              │
+│  • Board name and full name             │
+│  • Country information                  │
+│  • Description                          │
+│  • Direct link to official website      │
+│                                         │
+│  Leagues Modal:                         │
+│  • 15+ Cricket Leagues                  │
+│  • IPL, BBL, PSL, CPL, etc.             │
+│  • Country-wise organization            │
+│  • External links to league sites       │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+### 📚 Learning Hub Workflow (learning.tsx)
+
+<details>
+<summary>🔽 <strong>Click to expand the Learning Hub Workflow</strong></summary>
+
+```
+User Navigates to Learning
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Learning Hub Screen             │
+│                                         │
+│  1. Header with Gradient                │
+│  2. Skill Categories                    │
+│     • Batting Techniques                │
+│     • Bowling Strategies                │
+│     • Fielding Skills                   │
+│     • Cricket Rules                     │
+│     • Match Strategy                    │
+│  3. Video Tutorials Section             │
+│  4. Educational Articles                │
+│  5. Learning Progress Tracking          │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Content Organization            │
+│                                         │
+│  Video Content:                         │
+│  • Curated YouTube tutorials            │
+│  • Skill-based categorization           │
+│  • Beginner to advanced levels          │
+│                                         │
+│  Article Content:                       │
+│  • Comprehensive guides                 │
+│  • Tips and techniques                  │
+│  • Rules and regulations                │
+│                                         │
+│  External Integration:                  │
+│  • YouTube video embedding              │
+│  • Cricket education websites           │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+
+##@ 🛒 CricDR Cricket Shopping Hub Flow
+
+<details>
+<summary>🔽 <strong>Click to expand the Shopping Workflow</strong></summary>
+
+```
+User Navigates to Shopping
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│        Cricket Shopping Hub             │
+│                                         │
+│  1. Header with Search Bar              │
+│  2. Features Section                    │
+│     • Authentic Products                │
+│     • Fast Delivery                     │
+│     • Secure Payment                    │
+│     • Quality Assured                   │
+│  3. Premium Cricket Brands              │
+│  4. E-commerce Platforms                │
+│  5. Specialty Retailers                 │
+│  6. Shopping Tips                       │
+└─────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────┐
+│         Brand & Store Cards             │
+│                                         │
+│  Premium Brands:                        │
+│  • SG, GM, SS/TON, Gray-Nicolls         │
+│  • Kookaburra, Masuri, Shrey            │
+│  • Ratings and specialties              │
+│                                         │
+│  E-commerce Platforms:                  │
+│  • Amazon India, Flipkart               │
+│  • Features and ratings                 │
+│                                         │
+│  Specialty Retailers:                   │
+│  • Cricket Store Online                 │
+│  • Cricket Direct, Pro Direct           │
+│  • International shipping options       │
+└─────────────────────────────────────────┘
+```
+
+</details>
+
+### 🧱 Framework & Platform
+
+<details>
+<summary>🔽 <strong>Click to view Core Technology Stack</strong></summary>
+
+```
+🔧 Core Technology Stack
+
+• React Native — Cross-platform mobile development
+• Expo Router — File-based navigation and routing system
+• TypeScript — Type safety and improved developer experience
+• Platform Target — Web-first design with mobile (iOS/Android) compatibility via Expo
+```
+
+</details>
+
+### 🧭 Navigation Architecture
+
+<details>
+<summary>🔽 <strong>Click to view Navigation Hierarchy</strong></summary>
+
+```
+📂 Root Layout (Stack Navigator)
+   └── 🗂️ Tabs Layout (Tab Navigator)
+       ├── 🏠 Home Screen (index.tsx)
+       ├── 🤖 AI Assistant Screen
+       ├── 🏏 Cricket Boards Screen
+       ├── 📊 Scores Screen
+       ├── 📚 Learning Screen
+       └── 🛒 Shopping Screen
+```
+
+</details>
+
+### 🧠 State Management
+
+<details>
+<summary>🔽 <strong>Click to view React Hooks & State Logic</strong></summary>
+
+```
+🔁 React Hooks Pattern
+
+• useState — Local component-level state management
+• useEffect — Handles side effects and lifecycle events
+• Custom Hook: useFrameworkReady — Initializes framework readiness
+• Context: ❌ Not used — Intentional decision to keep the architecture simple and maintainable
+```
+
+</details>
+
+### 🎨 Styling System
+
+<details>
+<summary>🔽 <strong>Click to view Styling Details</strong></summary>
+
+```
+🧵 StyleSheet API + Design System
+
+• Color Palette — Dark theme with rich purple gradients
+• Spacing — Consistent 8px grid system across layout
+• Typography — Harmonized font sizes and weights for visual hierarchy
+• Components — Reusable card and button styles for consistency
+• Animations — Smooth linear gradients & subtle micro-interactions using Animated API
+```
+
+</details>
+
+### 🌐 External Integrations
+
+<details>
+<summary>🔽 <strong>Click to view API & Platform Integrations</strong></summary>
+
+```
+🔗 API & Service Integrations
+
+• 🏏 ESPNCricinfo — Live cricket scores and match data
+• 📰 Cricbuzz — News feed and upcoming match schedules
+• 🤖 JotForm Agents — Custom-built AI assistants for cricket learning
+• 📺 YouTube — Embedded educational video content
+• 🛒 E-commerce — Integrated shopping via Amazon & Flipkart
+```
+
+</details>
+
+## 🔄 Data Flow Architecture
+
+<details>
+<summary>🔽 <strong>Click to view App Data Flow</strong></summary>
+
+```
+User Input
+   │
+   ▼
+Component State (useState)
+   │
+   ▼
+Event Handlers (onPress, onChangeText, etc.)
+   │
+   ▼
+Navigation or External Link Handling
+   │
+   ▼
+→ Internal Routes (e.g., /ai-assistant, /scores)
+→ External Services (e.g., Cricbuzz, JotForm Agents)
+   │
+   ▼
+UI Updates / Page Navigation
+```
+
+</details>
+
+--------------------------------------------------------
+---------------------------------------------------------
+
 
 ## 🛠️🛠️
 ## Technical Architecture
