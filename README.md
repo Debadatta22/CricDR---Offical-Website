@@ -434,7 +434,7 @@ User Navigates to Learning
 </details>
 
 
-##@ 🛒 CricDR Cricket Shopping Hub Flow
+### 🛒 CricDR Cricket Shopping Hub Flow
 
 <details>
 <summary>🔽 <strong>Click to expand the Shopping Workflow</strong></summary>
