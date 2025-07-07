@@ -1,38 +1,59 @@
 # CricDR---Offical-Website
 CricDR  is an all-in-one cricket companion app designed for enthusiasts of all skill levels. It's a React Native/Expo application that serves as your personal cricket learning hub.
 
-
 ## 🔖 Table of Contents
 
 - [CricDR: A Comprehensive Cricket Learning Platform](#cricdr-a-comprehensive-cricket-learning-platform)
 - [Project Overview and Vision](#project-overview-and-vision)
+- [Mission](#-mission)
 - [Key Features](#-key-features)
-- [Technical Architecture](#-technical-architecture)
+
+- [Technical Architecture](#technical-architecture)
+  - [Core Technology Stack](#core-technology-stack)
+  - [Project Structure](#project-structure)
+  - [Key Dependencies](#key-dependencies)
 - [Design Philosophy](#-design-philosophy)
 - [Feature Breakdown](#feature-breakdown)
 - [Technical Implementation Details](#technical-implementation-details)
-- [External Integrations](#external-integrations)
+
+- [External Integrations](#-external-integrations)
 - [Responsive Design](#responsive-design)
 - [Performance Optimizations](#performance-optimizations)
 - [Deployment and Hosting](#deployment-and-hosting)
 - [Data Sources and APIs](#data-sources-and-apis)
 - [Security and Best Practices](#security-and-best-practices)
 - [Unique Features and Innovations](#unique-features-and-innovations)
-  - [Custom AI Agents](#custom-ai-agents)
-  - [Smart Search System](#smart-search-system)
-  - [Interactive Modals and Animations](#interactive-modals-and-animations)
-  - [Personal Touch and Branding](#personal-touch-and-branding)
+
 - [Future Enhancements and Scalability](#future-enhancements-and-scalability)
 - [Development Workflow and Tools](#-development-workflow)
+  - [Code Quality](#code-quality)
+  - [Testing Strategy](#testing-strategy)
+  - [Deployment Process](#deployment-process)
 - [Visual Design](#visual-design)
+  - [Color Palette](#color-palette)
+  - [UI Components](#ui-components)
 - [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Build for Production](#build-for-production)
 - [Platform Support](#-platform-support)
+  - [Web Platform (Primary)](#web-platform-primary)
+  - [Mobile Platforms](#mobile-platforms)
+  - [Platform-Specific Features](#platform-specific-features)
 - [Core Features Deep Dive](#-core-features-deep-dive)
+  - [Home Screen](#1-home-screen-indextsx)
+  - [AI Assistant Hub](#2-ai-assistant-hub-ai-assistanttsx)
+  - [Cricket Boards](#3-cricket-boards-cricket-boardstsx)
+  - [Live Scores & News](#4-live-scores--news-scorestsx)
+  - [Learning Hub](#5-learning-hub-learningtsx)
+  - [Cricket Shopping](#6-cricket-shopping-shoppingtsx)
 - [About the Creator](#-about-the-creator)
 - [Contributing](#-contributing)
+  - [Development Guidelines](#development-guidelines)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 - [Support](#-support)
+
 
 
 ----
@@ -54,7 +75,7 @@ Let me walk you through my cricket-focused web application, CricDR, which I've d
 </div>
 
 
-## 🌟Project  Overview and Vision
+## 🌟Project Overview and Vision
 
 I created CricDR as my passion project, combining my technical expertise in frontend development with my love for cricket. The name "CricDR" represents "Cricket learning platform Designed by Debadatta ROut" - a platform that diagnoses and treats all cricket-related learning needs. My vision was to build a one-stop solution that makes cricket knowledge accessible to everyone, from complete beginners to seasoned players looking to refine their skills.
 
@@ -102,7 +123,8 @@ To bridge the gap between technology and sports education by providing an intuit
 - **Direct Navigation**: Quick access to relevant sections
 - **Multi-category Search**: Search across AI assistants, learning content, scores, and shopping
 
-## 🛠️ Technical Architecture
+## 🛠️🛠️
+## Technical Architecture
 
 ### Core Technology Stack
 ```
@@ -206,7 +228,7 @@ Each tab contains comprehensive features related to its domain
 
 Smooth transitions and intuitive user flow
 
-# Feature Breakdown
+## Feature Breakdown
 
 **1. Home Screen (index.tsx)**
 
@@ -282,7 +304,7 @@ Specialty retailer recommendations with ratings and reviews
 
 Shopping tips and guidance for informed purchases
 
-Technical Implementation Details
+## Technical Implementation Details
 
 State Management and Hooks
 
@@ -307,9 +329,9 @@ Image components with Pexels integration for placeholder images
 
 Linear gradients for visual appeal
 
---------------
 
-### Responsive Design
+
+## Responsive Design
 
 I implemented a mobile-first approach with:
 
@@ -319,7 +341,7 @@ Flexible layouts that adapt to different screen sizes
 
 Touch-optimized interactions with proper feedback
 
-Performance Optimizations
+## Performance Optimizations
 
 Lazy loading of images and content
 
@@ -351,7 +373,7 @@ Generating static assets optimized for web delivery
 
 Deploying to Netlify's global infrastructure
 
-Data Sources and APIs
+## Data Sources and APIs
 
 ---------------
 
@@ -367,11 +389,9 @@ JotForm Agent platform for custom AI assistants
 
 YouTube for educational video content
 
-Security and Best Practices
+## Security and Best Practices
 
----------------
-
-### I implemented several security measures:
+ I implemented several security measures:
 
 Safe external link handling with URL validation
 
@@ -381,7 +401,7 @@ Input sanitization for search functionality
 
 Secure API integrations with proper error handling
 
-Unique Features and Innovations
+## Unique Features and Innovations
 
 Custom AI Agents
 
@@ -425,7 +445,7 @@ Personal Touch and Branding
 
 I included a comprehensive "About Me" section that showcases:
 
-### My educational background at C.V. Raman Global University
+## My educational background at C.V. Raman Global University
 
 Technical expertise in frontend development
 
@@ -435,13 +455,13 @@ Professional social media links for networking
 
 Interactive profile elements with detailed modal information
 
-Future Enhancements and Scalability
+## Future Enhancements and Scalability
 
 The architecture I've built supports future expansions:
 
 Additional AI integrations for more specialized assistance
 
-### User authentication for personalized experiences
+## User authentication for personalized experiences
 
 Offline capabilities for core features
 
