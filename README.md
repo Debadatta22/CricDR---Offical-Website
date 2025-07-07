@@ -9,6 +9,9 @@ CricDR  is an all-in-one cricket companion app designed for enthusiasts of all s
 ![image](https://github.com/user-attachments/assets/6a9c4c90-99ab-4baf-bdf1-d09ff175ec1f)
 ![image](https://github.com/user-attachments/assets/a4805c08-c0e8-43af-a83c-a4bd99d6b106)
 ![image](https://github.com/user-attachments/assets/53b9d167-f70d-497c-b6c2-0ee333d7a8b0)
+![image](https://github.com/user-attachments/assets/8e92fed8-0b2a-4d83-be2b-b12d40d7cd80)
+
+
 
 
 
