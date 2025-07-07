@@ -6,11 +6,12 @@ CricDR  is an all-in-one cricket companion app designed for enthusiasts of all s
 ![image](https://github.com/user-attachments/assets/ed8da683-2be5-4413-a48b-1df2add3bd03)
 ![image](https://github.com/user-attachments/assets/2e8b3580-99b7-4ef4-a7a7-fd5a7e987a33)
 
+**👉 [Click here to launch CricDR](https://lambent-fox-9d6931.netlify.app/)**
 
+OR Scan and use:
+![CricDR Website](https://github.com/user-attachments/assets/1a29a3af-ecef-48b6-9002-e8f2ad82607f)
 
-
-
-
+---------------------------
 
 ## 🔖 Table of Contents
 
