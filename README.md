@@ -10,10 +10,21 @@ Mobile View:
 
 ![WhatsApp Image 2025-07-07 at 19 27 54_32f8256c](https://github.com/user-attachments/assets/320496bb-21f8-41d9-8f77-d43de3833d1d)
 
+## Access here:-
+
 ## 👉 [Click here to launch CricDR](https://lambent-fox-9d6931.netlify.app/)
 
 OR Scan and use:
 ![CricDR Website](https://github.com/user-attachments/assets/1a29a3af-ecef-48b6-9002-e8f2ad82607f)
+
+## 🏏 What is CricDR?
+
+CricDR (Cricket Doctor) is an all-in-one cricket companion app designed for enthusiasts of all skill levels. It's a React Native/Expo application that serves as your personal cricket learning hub.
+
+## 🎯 Purpose:
+CricDR bridges the gap between technology and sports education, making cricket knowledge accessible through an intuitive, feature-rich platform. Whether you're a beginner learning the basics or an experienced player refining skills, CricDR provides personalized, AI-powered guidance and comprehensive cricket resources in one beautifully designed application.
+
+The app represents a perfect fusion of modern web development skills with passion for cricket, showcasing production-quality code and user experience design.
 
 ---------------------------
 
