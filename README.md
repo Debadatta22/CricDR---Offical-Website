@@ -171,6 +171,8 @@ useEffect for lifecycle management
 
 Custom hooks like useFrameworkReady for framework initialization
 
+--------------------
+
 ### External Integrations
 
 Linking API for opening external URLs
@@ -180,6 +182,8 @@ WebView component for embedding AI assistants
 Image components with Pexels integration for placeholder images
 
 Linear gradients for visual appeal
+
+--------------
 
 ### Responsive Design
 
@@ -200,6 +204,8 @@ Efficient re-renders with proper key props
 Memory management for WebView components
 
 Optimized bundle size with selective imports
+
+-----------------
 
 ### Deployment and Hosting
 
@@ -223,6 +229,8 @@ Deploying to Netlify's global infrastructure
 
 Data Sources and APIs
 
+---------------
+
 ### I integrated multiple external data sources:
 
 ESPNCricinfo for live cricket scores and match details
@@ -237,6 +245,8 @@ YouTube for educational video content
 
 Security and Best Practices
 
+---------------
+
 ### I implemented several security measures:
 
 Safe external link handling with URL validation
@@ -250,6 +260,8 @@ Secure API integrations with proper error handling
 Unique Features and Innovations
 
 Custom AI Agents
+
+----------------
 
 **I created multiple AI assistants specifically for cricket:**
 
@@ -285,6 +297,8 @@ Engaging micro-interactions throughout the app
 
 Personal Touch and Branding
 
+------------
+
 I included a comprehensive "About Me" section that showcases:
 
 ### My educational background at C.V. Raman Global University
@@ -312,6 +326,8 @@ Push notifications for live match updates
 Community features for user interaction
 
 Development Workflow and Tools
+
+------
 
 I used modern development practices:
 
