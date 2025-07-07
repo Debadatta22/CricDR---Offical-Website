@@ -37,7 +37,7 @@ CricDR  is an all-in-one cricket companion app designed for enthusiasts of all s
 
 ----
 
-# CricDR: A Comprehensive Cricket Learning Platform
+## CricDR: A Comprehensive Cricket Learning Platform
 
 Your Ultimate Cricket Learning Companion 🏏
 
