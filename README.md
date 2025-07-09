@@ -837,6 +837,8 @@ Image components with Pexels integration for placeholder images
 
 Linear gradients for visual appeal
 
+![Your platform is built using_ - visual selection (9)](https://github.com/user-attachments/assets/ddfad5f4-d0a4-49c9-8797-5f192befd0ed)
+
 
 
 ## Responsive Design
@@ -859,6 +861,9 @@ Memory management for WebView components
 
 Optimized bundle size with selective imports
 
+![Your platform is built using_ - visual selection (10)](https://github.com/user-attachments/assets/472d058a-530b-4100-93f8-60304e7e8e08)
+
+
 -----------------
 
 ### Deployment and Hosting
@@ -880,6 +885,10 @@ Building the web version using Expo's web output
 Generating static assets optimized for web delivery
 
 Deploying to Netlify's global infrastructure
+
+![Your platform is built using_ - visual selection (11)](https://github.com/user-attachments/assets/20616bf0-6442-47f0-b09a-929460bfa00b)
+
+
 
 ## Data Sources and APIs
 
@@ -908,6 +917,9 @@ Error boundaries for graceful error handling
 Input sanitization for search functionality
 
 Secure API integrations with proper error handling
+
+![Your platform is built using_ - visual selection (12)](https://github.com/user-attachments/assets/f35af3b4-fc16-4f83-acc6-2a8cdc17ee8a)
+
 
 ## Unique Features and Innovations
 
@@ -992,6 +1004,9 @@ Git version control for project management
 Expo development tools for testing and debugging
 
 This project represents my commitment to creating production-quality applications that solve real-world problems while showcasing modern web development techniques. CricDR stands as a testament to how technology can enhance sports education and make specialized knowledge accessible to a global audience.
+
+![Unique Features and Innovations - visual selection](https://github.com/user-attachments/assets/9a0b89da-b4fc-4eab-a00b-eafe215ef04b)
+
 
 
 -------
@@ -1107,6 +1122,9 @@ const triggerFeedback = () => {
 - **Flipkart**: Indian e-commerce platform
 - **Specialty Retailers**: Cricket-focused online stores
 
+  ![Unique Features and Innovations - visual selection (6)](https://github.com/user-attachments/assets/06bd6862-1d9b-4001-aedf-0ef30dfd1f00)
+
+
 ## 🎯 Core Features Deep Dive
 
 ### 1. Home Screen (`index.tsx`)
@@ -1146,6 +1164,9 @@ const triggerFeedback = () => {
 - **Product Information**: Ratings, reviews, and detailed descriptions
 - **Shopping Tips**: Guidance for informed purchasing decisions
 
+  ![Unique Features and Innovations - visual selection (5)](https://github.com/user-attachments/assets/a70d39f1-03ab-40b9-a4b0-7162074dbed6)
+
+
 ## 🔧 Development Workflow
 
 ### Code Quality
@@ -1165,6 +1186,9 @@ const triggerFeedback = () => {
 2. **Testing**: Cross-platform testing and debugging
 3. **Building**: Production build optimization
 4. **Deployment**: Netlify deployment with CI/CD
+
+![Unique Features and Innovations - visual selection (4)](https://github.com/user-attachments/assets/825342c7-0b84-4e25-8172-cf7881991890)
+
 
 ## 🌐 Deployment & Hosting
 
@@ -1188,6 +1212,9 @@ const triggerFeedback = () => {
 - **Error Tracking**: Bug detection and resolution
 - **Platform Analytics**: Cross-platform usage statistics
 
+  ![Unique Features and Innovations - visual selection (3)](https://github.com/user-attachments/assets/4b575c97-a661-465b-9a5c-d806790f34f8)
+
+
 ## 🔒 Security & Privacy
 
 ### Security Measures
@@ -1200,6 +1227,9 @@ const triggerFeedback = () => {
 - **No Personal Data Collection**: Privacy-focused design
 - **External Link Warnings**: Clear indication of external navigation
 - **Secure API Integrations**: Protected third-party connections
+
+  ![Unique Features and Innovations - visual selection (2)](https://github.com/user-attachments/assets/87eff82b-8e0b-4478-8166-8a7eab7b1ad5)
+
 
 ## 🚀 Future Enhancements
 
@@ -1215,6 +1245,9 @@ const triggerFeedback = () => {
 - **Enhanced Search**: More intelligent search with AI-powered suggestions
 - **Mobile App**: Native iOS and Android applications
 - **API Development**: Custom backend for enhanced features
+
+  ![Unique Features and Innovations - visual selection (1)](https://github.com/user-attachments/assets/2bbd3db2-d0d0-41d6-8cf0-2311151a1936)
+
 
 ## 👨‍💻 About the Creator
 
