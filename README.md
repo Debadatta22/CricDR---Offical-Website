@@ -1,4 +1,4 @@
-# CricDR---Offical-Website
+![image](https://github.com/user-attachments/assets/9d11fb5e-07c5-4bd8-b42a-5fa14caeedf2)# CricDR---Offical-Website
 CricDR  is an all-in-one cricket companion app designed for enthusiasts of all skill levels. It's a React Native/Expo application that serves as your personal cricket learning hub.
 
 ![image](https://github.com/user-attachments/assets/a7199338-03e9-418e-8ffe-80dd31b0f168)
@@ -115,6 +115,9 @@ I created CricDR as my passion project, combining my technical expertise in fron
 ### 🎯 Mission
 To bridge the gap between technology and sports education by providing an intuitive, feature-rich platform that caters to both beginners taking their first steps into cricket and seasoned players looking to refine their skills.
 
+![Your platform is built using_ - visual selection (1)](https://github.com/user-attachments/assets/108e6fca-32d0-49a0-96ae-c140ff3f1b0a)
+
+
 
 ## ✨ Key Features
 
@@ -153,6 +156,9 @@ To bridge the gap between technology and sports education by providing an intuit
 - **Contextual Suggestions**: Real-time suggestions based on user input
 - **Direct Navigation**: Quick access to relevant sections
 - **Multi-category Search**: Search across AI assistants, learning content, scores, and shopping
+
+  ![Your platform is built using_ - visual selection (2)](https://github.com/user-attachments/assets/2bade895-cdf0-4375-bd54-c7c3f7505b55)
+
 
 ## CricDR Application Workflow & Architecture
 
@@ -638,6 +644,9 @@ JavaScript/TypeScript as the primary programming languages
 
 I organized the project following Expo Router's file-based routing system:
 
+![Your platform is built using_ - visual selection (3)](https://github.com/user-attachments/assets/71d25944-f98c-4501-a4da-04f1f758c60d)
+
+
 app/
 
 ### Project Structure
@@ -701,10 +710,10 @@ Subtle shadows and elevation effects
 
 Micro-interactions and hover states
 
+![Your platform is built using_ - visual selection (4)](https://github.com/user-attachments/assets/ebd2a99a-aa6b-4ff5-80fa-dddf4f604951)
+
+
 Navigation Architecture
-
-
-
 
 
 I implemented a tab-based navigation as the primary structure:
@@ -714,6 +723,9 @@ I implemented a tab-based navigation as the primary structure:
 Each tab contains comprehensive features related to its domain
 
 Smooth transitions and intuitive user flow
+
+![Your platform is built using_ - visual selection (5)](https://github.com/user-attachments/assets/b8a153f0-ad78-4651-bb21-14849480b4a9)
+
 
 ## Feature Breakdown
 
@@ -791,18 +803,23 @@ Specialty retailer recommendations with ratings and reviews
 
 Shopping tips and guidance for informed purchases
 
+![Your platform is built using_ - visual selection (7)](https://github.com/user-attachments/assets/0c1c8408-c0ef-4819-a981-c0aa19b3d4b5)
+
+
 ## Technical Implementation Details
 
 State Management and Hooks
 
 I used React's built-in state management with:
------------------------
 
 useState for component-level state
 
 useEffect for lifecycle management
 
 Custom hooks like useFrameworkReady for framework initialization
+
+![Your platform is built using_ - visual selection (8)](https://github.com/user-attachments/assets/71439664-27a2-4861-8c6c-4e0b695f0ac7)
+
 
 --------------------
 
