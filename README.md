@@ -26,6 +26,10 @@ CricDR bridges the gap between technology and sports education, making cricket k
 
 The app represents a perfect fusion of modern web development skills with passion for cricket, showcasing production-quality code and user experience design.
 
+![Your platform is built using_ - visual selection](https://github.com/user-attachments/assets/73ee2a56-25ce-4407-968e-69589eb8c124)
+
+
+
 ---------------------------
 
 ## 🔖 Table of Contents
